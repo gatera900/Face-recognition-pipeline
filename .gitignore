@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Dataset images (keep structure, ignore images)
+dataset/*/*.jpg
+dataset/*/*.jpeg
+dataset/*/*.png
+dataset/*/*.JPG
+dataset/*/*.JPEG
+dataset/*/*.PNG
+
+# Models (optional - uncomment if you don't want to commit models)
+# models/*.yml
+# models/*.json
+
+# Screenshots
+screenshot_*.jpg
+screenshot_*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
